@@ -59,4 +59,4 @@ btnsend.place(x=240,y=500)
 btnclr=Button(win,text="Clear",font=("aerial",16,'bold'),command = lambda: clear(txt1, txt2))
 btnclr.place(x=440,y=500)
 
-
+win.mainloop
